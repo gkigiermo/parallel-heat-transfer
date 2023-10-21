@@ -15,7 +15,7 @@ The problem consists of a 2D domain, in which the left and right temperatures di
 
 For parallelization, the domain is partitioned into subdomains that are assigned to the MPI processes.
 
-![domain_decomposition](https://github.com/gkigiermo/parallel-heat-transfer/assets/50739871/a2431797-069a-4d95-9419-5c2030a4ec82)
+![domain_decomposition](https://github.com/gkigiermo/parallel-heat-transfer/blob/main/imgs/domain_decomposition.png)
 
 MPI Communications are used to maintain data coherence.
 
@@ -42,4 +42,4 @@ The correct execution displays the algorithm convergence and at the end generate
 For visualizing the results you need to install Tecplot and load the generated file.
 With the current configuration, the results should look like this:
 
-<img src="https://github.com/gkigiermo/parallel-heat-transfer/assets/50739871/9a6c373a-1f9d-44da-a64a-dae9f2167229" width="400">
+<img src="https://github.com/gkigiermo/parallel-heat-transfer/blob/main/imgs/result.jpg" width="400">
